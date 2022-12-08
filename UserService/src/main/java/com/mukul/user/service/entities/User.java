@@ -32,6 +32,26 @@ public class User {
 	private String about;
 	private String mobileNum;
 
+	public User() {
+		
+	}
+
+	@Override
+	public String toString() {
+		return "User [userId=" + userId + ", name=" + name + ", email=" + email + ", about=" + about + ", mobileNum="
+				+ mobileNum + ", rating=" + rating + "]";
+	}
+
+	public User(String userId, String name, String email, String about, String mobileNum, List<Rating> rating) {
+		super();
+		this.userId = userId;
+		this.name = name;
+		this.email = email;
+		this.about = about;
+		this.mobileNum = mobileNum;
+		this.rating = rating;
+	}
+
 	@Transient
 	private List<Rating> rating;
 

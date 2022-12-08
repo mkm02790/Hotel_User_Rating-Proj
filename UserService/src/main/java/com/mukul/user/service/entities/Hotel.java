@@ -12,6 +12,7 @@ public class Hotel {
 	private String location;
 	private String about ;
 	
+	
 	public Hotel() {
 		super();
 		// TODO Auto-generated constructor stub

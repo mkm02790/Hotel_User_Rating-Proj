@@ -16,6 +16,12 @@ public class Rating {
 	private double rating ;
 	private String feedback;
 	private Hotel hotel;
+	
+	@Override
+	public String toString() {
+		return "Rating [ratingId=" + ratingId + ", userId=" + userId + ", hotelId=" + hotelId + ", rating=" + rating
+				+ ", feedback=" + feedback + ", hotel=" + hotel + "]";
+	}
 	public Rating(String ratingId, String userId, String hotelId, double rating, String feedback ,Hotel hotel) {
 		super();
 		this.ratingId = ratingId;

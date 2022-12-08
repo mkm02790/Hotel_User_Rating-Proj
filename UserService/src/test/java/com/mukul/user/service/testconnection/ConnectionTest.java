@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.mukul.user.service.connection;
+package com.mukul.user.service.testconnection;
 
 import static org.junit.jupiter.api.Assertions.*;
 
