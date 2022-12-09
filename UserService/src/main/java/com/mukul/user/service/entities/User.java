@@ -33,7 +33,7 @@ public class User {
 	private String mobileNum;
 
 	public User() {
-		
+
 	}
 
 	@Override
@@ -50,6 +50,15 @@ public class User {
 		this.about = about;
 		this.mobileNum = mobileNum;
 		this.rating = rating;
+	}
+
+	public User(String name, String email, String about, String mobileNum) {
+		super();
+		this.name = name;
+		this.email = email;
+		this.about = about;
+		this.mobileNum = mobileNum;
+
 	}
 
 	@Transient
